@@ -1,0 +1,40 @@
+{
+  "name": "koacli",
+  "private": true,
+  "version": "1.0.0",
+  "description": "基于ts的koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch-server": "nodemon --watch /src/**/* -e ts,tsx --exec ts-node ./src/app.ts"
+  },
+  "author": "张坤",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bluebird": "^3.5.30",
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.0",
+    "@types/node": "^13.11.0",
+    "@types/require-directory": "^2.1.1",
+    "@types/sequelize": "^4.28.8",
+    "@types/validator": "^12.0.1",
+    "axios": "^0.19.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^8.0.8",
+    "md5": "^2.2.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "reflect-metadata": "^0.1.13",
+    "require-directory": "^2.1.1",
+    "sequelize": "^5.21.5",
+    "sequelize-typescript": "^1.1.0",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3",
+    "util": "^0.12.2"
+  }
+}
