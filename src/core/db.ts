@@ -17,5 +17,5 @@ const sequelize = new Sequelize(dbName, user, password, {
 
 sequelize.addModels( [ rootPath + '/api/models' ] );
 
-export { sequelize, BaseModel, User, Note, Img, Share }
+export { sequelize, BaseModel, User }
 
